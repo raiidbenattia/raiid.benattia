@@ -1,0 +1,37 @@
+.cart-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.cart-item {
+    display: flex;
+    margin: 10px 0;
+    border-bottom: 1px solid #2f2929;
+    padding-bottom: 10px;
+    background-color:rgb(170, 166, 166) ;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.quantity-button, .remove-button, .like-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.like-button {
+    color: gray;
+}
+
+.like-button.liked {
+    color: red;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
